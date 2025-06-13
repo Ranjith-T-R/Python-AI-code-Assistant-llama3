@@ -24,15 +24,6 @@ This is an interactive Python-based AI assistant built using [Streamlit](https:/
 
 ---
 
-## 📂 File Structure
-
-📁 py-ai-clarifier/
-├── a.py                  # Main Streamlit app with LangChain and LLaMA 3 logic
-├── chat_history.json     # Auto-generated file to persist Q&A history
-├── README.md             # Documentation with usage, features, and setup guide
-
----
-
 ## 🧠 How It Works
 
 1. Accepts user questions via text area.
@@ -50,3 +41,5 @@ pip install streamlit langchain ollama
 
 # Run the app
 streamlit run a.py
+# run ollama
+ollama run llama3 
